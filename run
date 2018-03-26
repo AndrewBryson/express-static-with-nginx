@@ -1,1 +1,1 @@
-docker run --rm --name nginx-with-node -p 80:80 nginx-with-node
+docker run -it --rm --name nginx-with-node -p 80:80 nginx-with-node

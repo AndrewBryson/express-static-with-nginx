@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv sh
 
-cd /app
+cd /app/server
 
 exec node server.js;

@@ -4,7 +4,7 @@ var static = require('node-static'),
 //
 // Create a node-static server to serve the current directory
 //
-var file = new static.Server('./public', { cache: -1, headers: {'Cache-Control': 'no-cache, must-revalidate'} });
+var file = new static.Server('..', { cache: -1, headers: {'Cache-Control': 'no-cache, must-revalidate'} });
 
 require('http').createServer(function (request, response) {
 
